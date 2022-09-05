@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+
+nav{
+    background-color: rgba(214, 1, 49, 1);
+
+}
+    nav a img{
+        width: 7%;
+        height: auto;
+        padding: 10px;
+    }
+
+    nav ul{
+        list-style: none;
+        display: inline-block;
+        margin-left: 8px; 
+        position:absolute;
+        top: 55px;
+        right: 50px;
+    }
+        nav ul li{
+            display: inline-block;
+            margin-right: 10px;
+           
+        }    
+    
+            nav ul li a{
+                text-decoration: none;
+                color: rgba(0, 0, 0, 1);
+                font-size: 1.3rem;
+                font-weight: 580;
+                padding: 6px 15px;
+                           
+
+        }
+            nav ul li a:hover{
+                color:  rgb(255, 255, 255);
+            }
+
+            
+/*header*/
+
+    h1{
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 800;
+        font-style: italic;;
+        padding: 10px;
+
+
+
+    }
+
+          h2,h3,h4{
+            font-size: 1.7rem;
+            padding: 10px; 
+               
+            
+          }
+
+          p{
+            font-size: 1.2rem;
+            padding: 10px;
+            
+          }
+
+footer{
+    background-color: rgba(0, 0, 0, 1);
+    text-align: center;    
+}
+    footer p{
+        color: rgba(244, 244, 244, 1);
+        padding: 10px;
+    }
+    footer a img{
+        width: 3%;
+        height: auto;
+    }
+
+/* mainBackgroundColors */
+
+.backgroundColorGreen{
+    background-color: rgba(83, 178, 134, 1);
+}
+
+.backgroundColorYellow{
+    background-color: rgba(225, 230, 93, 0.6);
+}
+
+.backgroundColorPink{
+    background-color: rgba(246, 124, 171, 0.6);
+}
+
+.backgroundColorLightRed{
+    background-color: rgba(249, 78, 68, 0.6);
+}
+
+.backgroundColorLightBlue{
+    background-color: rgba(170, 208, 247, 0.6);
+}
+
+.backgroundColorLilac{
+    background-color: rgba(238, 154, 250, 0.6);;
+}
+
+.backgroundColorLightGreen{
+    background-color: rgba(146, 241, 131, 0.6);
+}
+
+.backgroundColorRed{
+    background-color: rgba(214, 1, 49, 0.6);
+}
+.backgroundNav{
+background-color: rgba(214, 1, 49, 1);
+}
+
+
+/*list style*/
+
+.listStyle{
+    list-style:inside;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+/*paddings & widths*/
+
+.padding{
+    padding: 30px;
+}
+
+.width30{
+    width: 30%;
+}
+
+.width45{
+    width: 45%;
+    height: auto;
+}
+
+.width50{
+    width: 50%;
+    
+}
+
+.width60{
+    width: 60%;
+}
+.width100{
+    width: 100%;
+}
+
+
+/*flex*/
+
+.flexContainerHeader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexContainerHeaderPedinos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexContainerMain{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.flexContainerMainPedinos{
+    display: flex;
+    justify-content:space-around;
+    align-items:stretch;
+}
+
+.flexContainerColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexContainerRow{
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+}
+
+.flexJustify{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-content: space-around;
+}
+
+.flexReverse{
+    flex-direction: row-reverse;
+}
+
+
+/*img*/
+
+.imgHeaderSized {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+.imgMainSized {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+
+/*grids*/
+
+.gridVariedades{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:400px 400px;
+    grid-template-areas:
+    "burgol lenteja yamani"
+    "aduki falafel mung";
+    
+}
+
+.gridIndex{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(1fr);
+    grid-template-rows:repeat(1fr);
+    grid-template-areas: 
+    "nav nav"
+    "ht hp"
+    "fp ft"
+    "st sp"
+    "foot foot"
+    ;
+}
+
+
+
+
+
+/*grid-areas*/
+
+#lenteja{
+    grid-area: lenteja;
+    
+}
+#aduki{
+    grid-area: aduki;
+    
+}
+#mung{
+    grid-area: mung;
+    
+}
+#yamani{
+    grid-area: yamani;
+    
+}
+#burgol{
+    grid-area: burgol;
+    
+}
+#falafel{
+    grid-area: falafel;
+    
+}
+#pedinos{
+    grid-area: pedinos;
+}
+#saludable{
+    grid-area: saludable;
+}
+
+#nav{
+    grid-area: nav;
+}
+#indexHeaderText{
+    grid-area: ht;
+}
+#indexHeaderPic{
+    grid-area: hp;
+}
+#indexFalafelText{
+    grid-area: ft;
+}
+#indexFalafelPic{
+    grid-area: fp;
+}
+#indexSaludableText{
+    grid-area: st;
+}
+#indexSaludablePic{
+    grid-area: sp;
+}
+#footer{
+    grid-area: foot;
+}
+
+
+/*media queries*/
+
+@media (max-width: 1020px){
+
+    
+    #nav ul{
+        display: flex;
+        flex-direction: column;
+        position:sticky;
+    }
+    nav ul li a{
+        font-size: 1rem;
+
+    }
+
+    nav a img{
+        width: 10%;
+
+    }
+
+    h1{
+        font-size: 3rem;
+        align-content:stretch;
+
+    }
+
+    h2,h3,h4{
+        font-size: 1.6rem; 
+               
+            
+          }
+
+    p{
+        font-size: 1.2rem;
+        }
+
+    .gridIndex{
+        display: flex;
+        flex-direction:column;
+    }
+
+    
+    .gridVariedades{
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr;
+        grid-template-areas:
+        "burgol" 
+        "lenteja"
+        "yamani"
+        "aduki"
+        "falafel"
+        "mung";
+    }
+    
+    .imgHeaderSized {
+        display: none;
+    }
+
+    .flexContainerMain{
+        flex-direction: column;
+    }
+    .flexContainerMainPedinos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listStyle{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        width: 99%;    
+    }
+
+   /* media queries  */
+    
+   @media (max-width: 550px){
+    
+    nav a img{
+        width: 20%;
+        height: auto;
+        padding: 10px;
+    }
+   
+    .imgMainSized{
+        width: 100%;
+    }
+    .disappearMobile{
+        display: none;
+    }
+
+    .width50{
+        width: 100%;
+    }
+
+
+   }
+
+}
+
+
+
+
+
+
+
+
+/*CODIGO VIEJARDO*/
+
+/*textAlign
+
+.textHeader{
+    position: relative;
+    bottom: 100px; 
+}
+
+.textHeaderTwo{
+    position: relative;
+    left: 350px;
+    padding:100px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textJustify{
+    text-align: justify;
+}*/
+/*
+.textLeft{
+    position: relative;
+    top: 250px;
+    left:50px;
+}
+
+.textRight{
+    position:relative;
+    left: 750px;
+    bottom: 250px;    
+}
+
+
+.fontStyleItalic{
+    font-style: italic;
+    padding: 30px;
+}
+*/
+/*boxes
+
+.fiftyFiftyScreen{
+    width: 50%;
+    text-align: center;
+
+}
+
+.fortySixtyScreen{
+    width: 40%;
+}
+*/
+/* imageSizes Positions */
+
+/*.imgHeaderSized{
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top:11px;
+    padding:15px;
+
+}
+
+.imgMainSized{
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    }*/
+
+/* .imagePositionRight{
+    display: inline-block;
+    
+    position:relative;
+    left:850px;
+    bottom: 40px;
+} 
+*/
+
+/* .imagePositionLeft{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 90px;
+} 
+
+.imageListRight{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    top: 12px;
+} */

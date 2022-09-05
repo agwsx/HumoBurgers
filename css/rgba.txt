@@ -1,0 +1,15 @@
+colores:
+
+rojo: rgba(249, 78, 68, 0.6);
+
+verde: rgba(83, 178, 134, 0.6);
+
+amarillo: rgba(225, 230, 93, 0.6);
+
+celeste: rgba(170, 208, 247, 0.6)
+
+rosa: rgba(246, 124, 171, 0.6);
+
+lila: rgba(238, 154, 250, 0.6);
+
+verde claro: rgba(206, 241, 77, 0.6);
