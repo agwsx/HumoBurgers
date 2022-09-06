@@ -317,6 +317,26 @@ background-color: rgba(214, 1, 49, 1);
     grid-area: foot;
 }
 
+/*gradients*/
+
+.gradientWhiteToLightred{
+    background: linear-gradient(to bottom, white, rgba(249, 78, 68, 0.6));
+}
+
+.gradientWhiteToPink{
+    background: linear-gradient(to bottom, white,rgba(246, 124, 171, 0.6) );
+}
+
+.gradientWhiteToYellow{
+    background: linear-gradient(to bottom, white, rgba(225, 230, 93, 0.6));
+}
+
+.gradientWhiteToLightblue{
+    background: linear-gradient(to bottom, white, rgba(170, 208, 247, 0.6));
+}
+
+
+
 
 /*media queries*/
 
@@ -415,105 +435,3 @@ background-color: rgba(214, 1, 49, 1);
    }
 
 }
-
-
-
-
-
-
-
-
-/*CODIGO VIEJARDO*/
-
-/*textAlign
-
-.textHeader{
-    position: relative;
-    bottom: 100px; 
-}
-
-.textHeaderTwo{
-    position: relative;
-    left: 350px;
-    padding:100px;
-}
-
-.textCenter{
-    text-align: center;
-}
-
-.textJustify{
-    text-align: justify;
-}*/
-/*
-.textLeft{
-    position: relative;
-    top: 250px;
-    left:50px;
-}
-
-.textRight{
-    position:relative;
-    left: 750px;
-    bottom: 250px;    
-}
-
-
-.fontStyleItalic{
-    font-style: italic;
-    padding: 30px;
-}
-*/
-/*boxes
-
-.fiftyFiftyScreen{
-    width: 50%;
-    text-align: center;
-
-}
-
-.fortySixtyScreen{
-    width: 40%;
-}
-*/
-/* imageSizes Positions */
-
-/*.imgHeaderSized{
-    width: 40%;
-    height: auto;
-    display: inline-block;
-    position: relative;
-    left: 200px;
-    top:11px;
-    padding:15px;
-
-}
-
-.imgMainSized{
-    width: 30%;
-    height: auto;
-    padding: 15px;
-    }*/
-
-/* .imagePositionRight{
-    display: inline-block;
-    
-    position:relative;
-    left:850px;
-    bottom: 40px;
-} 
-*/
-
-/* .imagePositionLeft{
-    display: inline-block;
-    position: relative;
-    left: 50px;
-    top: 90px;
-} 
-
-.imageListRight{
-    display: inline-block;
-    position: relative;
-    left: 40px;
-    top: 12px;
-} */
