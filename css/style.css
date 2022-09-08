@@ -126,6 +126,11 @@ background-color: rgba(214, 1, 49, 1);
     font-size: 1.1rem;
 }
 
+.textCarousel{
+    font-size: 1.4rem;
+    text-shadow: 1rem;
+}
+
 /*paddings & widths*/
 
 .padding{
