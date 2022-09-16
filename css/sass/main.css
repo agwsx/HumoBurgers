@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+/*body*/
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 800;
+  font-style: italic;
+  padding: 10px;
+}
+
+h2, h3, h4 {
+  font-size: 1.7rem;
+  padding: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+/*images*/
+.imgHeaderSized {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+}
+
+.imgMainSized {
+  width: 30%;
+  height: auto;
+  padding: 10px;
+}
+
+/*list style*/
+.listStyle {
+  list-style: inside;
+  line-height: 4rem;
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+/* text */
+.textSize {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: black;
+}
+
+.textCarousel {
+  font-size: 1.4rem;
+  text-shadow: 1rem;
+}
+
+/*colors*/
+/* mainBackgroundColors */
+.backgroundColorGreen {
+  background-color: rgb(83, 178, 134);
+}
+
+.backgroundColorYellow {
+  background-color: rgba(225, 230, 93, 0.6);
+}
+
+.backgroundColorPink {
+  background-color: rgba(246, 124, 171, 0.6);
+}
+
+.backgroundColorLightRed {
+  background-color: rgba(249, 78, 68, 0.6);
+}
+
+.backgroundColorLightBlue {
+  background-color: rgba(170, 208, 247, 0.6);
+}
+
+.backgroundColorLilac {
+  background-color: rgba(238, 154, 250, 0.6);
+}
+
+.backgroundColorLightGreen {
+  background-color: rgba(146, 241, 131, 0.6);
+}
+
+.backgroundColorRed {
+  background-color: rgba(214, 1, 49, 0.6);
+}
+
+.backgroundNav {
+  background-color: rgb(214, 1, 49);
+}
+
+.backgroundColorWhite {
+  background-color: white;
+}
+
+/*gradients*/
+.gradientWhiteToLightred {
+  background: linear-gradient(to bottom, white, rgba(249, 78, 68, 0.6));
+}
+
+.gradientWhiteToPink {
+  background: linear-gradient(to bottom, white, rgba(246, 124, 171, 0.6));
+}
+
+.gradientWhiteToYellow {
+  background: linear-gradient(to bottom, white, rgba(225, 230, 93, 0.6));
+}
+
+.gradientWhiteToLightblue {
+  background: linear-gradient(to bottom, white, rgba(170, 208, 247, 0.6));
+}
+
+/*paddings & widths*/
+.padding {
+  padding: 30px;
+}
+
+.width30 {
+  width: 30%;
+}
+
+.width45 {
+  width: 45%;
+  height: auto;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width60 {
+  width: 60%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(214, 1, 49);
+}
+nav img {
+  width: 90px;
+  height: auto;
+  padding: 2px;
+}
+
+.textNav {
+  font-size: 1.1rem;
+}
+
+/*flex*/
+.flexContainerHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexContainerMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexContainerHeaderPedinos {
+  display: flex;
+  justify-content: center;
+}
+
+.flexContainerMainPedinos {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.flexContainerColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexContainerRow {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.flexJustify {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.flexReverse {
+  flex-direction: row-reverse;
+}
+
+/*grids*/
+.gridVariedades {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 400px 400px;
+  grid-template-areas: "burgol lenteja yamani" "aduki falafel mung";
+}
+
+.gridIndex {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(1fr);
+  grid-template-rows: repeat(1fr);
+  grid-template-areas: "ht hp" "fp ft" "st sp" "foot foot";
+}
+
+/*grid-areas*/
+#lenteja {
+  grid-area: lenteja;
+}
+
+#aduki {
+  grid-area: aduki;
+}
+
+#mung {
+  grid-area: mung;
+}
+
+#yamani {
+  grid-area: yamani;
+}
+
+#burgol {
+  grid-area: burgol;
+}
+
+#falafel {
+  grid-area: falafel;
+}
+
+#pedinos {
+  grid-area: pedinos;
+}
+
+#saludable {
+  grid-area: saludable;
+}
+
+#nav {
+  grid-area: nav;
+}
+
+#indexHeaderText {
+  grid-area: ht;
+}
+
+#indexHeaderPic {
+  grid-area: hp;
+}
+
+#indexFalafelText {
+  grid-area: ft;
+}
+
+#indexFalafelPic {
+  grid-area: fp;
+}
+
+#indexSaludableText {
+  grid-area: st;
+}
+
+#indexSaludablePic {
+  grid-area: sp;
+}
+
+#footer {
+  grid-area: foot;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+footer p {
+  color: rgb(244, 244, 244);
+  padding: 10px;
+}
+footer img {
+  width: 45px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1020px) {
+  h1 {
+    font-size: 3rem;
+    align-content: stretch;
+  }
+  h2, h3, h4 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .gridIndex {
+    display: flex;
+    flex-direction: column;
+  }
+  .gridVariedades {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "burgol" "lenteja" "yamani" "aduki" "falafel" "mung";
+  }
+  .imgHeaderSized {
+    display: none;
+  }
+  .flexContainerMain {
+    flex-direction: column;
+  }
+  .flexContainerMainPedinos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .listStyle {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 99%;
+  }
+  .width50 {
+    width: 100%;
+  }
+  /* media queries  */
+}
+@media (max-width: 1020px) and (max-width: 550px) {
+  .imgMainSized {
+    width: 100%;
+  }
+  .disappearMobile {
+    display: none;
+  }
+  .width50 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
