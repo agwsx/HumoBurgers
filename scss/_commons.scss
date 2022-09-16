@@ -1,0 +1,147 @@
+
+/*body*/
+
+h1{
+    text-align: center;
+    font-size: $textXl;
+    line-height: $textXl;
+    font-weight: 800;
+    font-style: italic;;
+    padding: 10px;
+}
+
+h2,h3,h4{
+        font-size: 1.7rem;
+        padding: 10px; 
+           }
+
+p{
+        font-size: 1.2rem;
+        padding: 10px;
+        }
+
+
+/*images*/
+
+.imgHeaderSized {
+    width: $w50;
+    height: auto;
+    padding: 10px;
+}
+.imgMainSized {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+
+/*list style*/
+
+.listStyle{
+    list-style:inside;
+    line-height: 4rem;
+    font-size: $textS;
+    width: $w50;
+}
+
+/* text */
+.textSize{
+    font-size: $textM;
+    text-decoration: none;
+    color: black; }
+
+.textCarousel{
+        font-size: 1.4rem;
+        text-shadow: 1rem;
+    }
+
+/*colors*/ 
+
+/* mainBackgroundColors */
+.backgroundColorGreen{
+    background-color: rgba(83, 178, 134, 1);
+}
+
+.backgroundColorYellow{
+    background-color: rgba(225, 230, 93, 0.6);
+}
+
+.backgroundColorPink{
+    background-color: rgba(246, 124, 171, 0.6);
+}
+
+.backgroundColorLightRed{
+    background-color: rgba(249, 78, 68, 0.6);
+}
+
+.backgroundColorLightBlue{
+    background-color: rgba(170, 208, 247, 0.6);
+}
+
+.backgroundColorLilac{
+    background-color: rgba(238, 154, 250, 0.6);;
+}
+
+.backgroundColorLightGreen{
+    background-color: rgba(146, 241, 131, 0.6);
+}
+
+.backgroundColorRed{
+    background-color: rgba(214, 1, 49, 0.6);
+}
+.backgroundNav{
+background-color: rgba(214, 1, 49, 1);
+}
+
+.backgroundColorWhite{
+    background-color: white;
+}
+
+/*gradients*/
+
+.gradientWhiteToLightred{
+    background: linear-gradient(to bottom, white, rgba(249, 78, 68, 0.6));
+}
+
+.gradientWhiteToPink{
+    background: linear-gradient(to bottom, white,rgba(246, 124, 171, 0.6) );
+}
+
+.gradientWhiteToYellow{
+    background: linear-gradient(to bottom, white, rgba(225, 230, 93, 0.6));
+}
+
+.gradientWhiteToLightblue{
+    background: linear-gradient(to bottom, white, rgba(170, 208, 247, 0.6));
+}
+
+
+
+
+
+/*paddings & widths*/
+
+
+
+.padding{
+    padding: 30px;
+    }
+
+.width30{
+    width: 30%;}
+
+.width45{
+        width: 45%;
+        height: auto;
+    }
+    
+.width50{
+        width: 50%;
+        
+    }
+
+.width60{
+    width: 60%;
+    }
+.width100{
+    width: 100%; 
+    }

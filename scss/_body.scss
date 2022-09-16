@@ -1,0 +1,138 @@
+
+/*flex*/ 
+
+.flexContainerHeader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flexContainerMain{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.flexContainerHeaderPedinos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexContainerMainPedinos{
+    display: flex;
+    justify-content:space-around;
+    align-items:stretch;
+}
+
+.flexContainerColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexContainerRow{
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+}
+
+.flexJustify{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-content: space-around;
+}
+
+.flexReverse{
+    flex-direction: row-reverse;
+}
+
+
+/*grids*/
+
+
+.gridVariedades{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:400px 400px;
+    grid-template-areas:
+    "burgol lenteja yamani"
+    "aduki falafel mung";
+    
+}
+
+.gridIndex{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(1fr);
+    grid-template-rows:repeat(1fr);
+    grid-template-areas: 
+    /* "nav nav" */
+    "ht hp"
+    "fp ft"
+    "st sp"
+    "foot foot"
+    ;
+}
+
+
+
+
+
+/*grid-areas*/
+
+#lenteja{
+    grid-area: lenteja;
+    
+}
+#aduki{
+    grid-area: aduki;
+    
+}
+#mung{
+    grid-area: mung;
+    
+}
+#yamani{
+    grid-area: yamani;
+    
+}
+#burgol{
+    grid-area: burgol;
+    
+}
+#falafel{
+    grid-area: falafel;
+    
+}
+#pedinos{
+    grid-area: pedinos;
+}
+#saludable{
+    grid-area: saludable;
+}
+
+#nav{
+    grid-area: nav;
+}
+#indexHeaderText{
+    grid-area: ht;
+}
+#indexHeaderPic{
+    grid-area: hp;
+}
+#indexFalafelText{
+    grid-area: ft;
+}
+#indexFalafelPic{
+    grid-area: fp;
+}
+#indexSaludableText{
+    grid-area: st;
+}
+#indexSaludablePic{
+    grid-area: sp;
+}
+#footer{
+    grid-area: foot;
+}
