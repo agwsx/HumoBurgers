@@ -7,3 +7,40 @@ $textS: 1.2rem;
 //sizes*/
 $w50: 50%;
 $w45: 45%;
+$w30: 30%;
+
+//mixes*/
+@mixin flexAlignCenter {
+    display: flex;  
+    align-items: center;    
+}
+
+@mixin flexAlignAround {
+    display: flex;
+    align-content: space-around;    
+}
+
+// maps*/
+
+$colors:(
+
+    "green": rgba(83, 178, 134, 1), 
+
+    "yellow": rgba(225, 230, 93, 0.6),
+    
+    "pink": rgba(246, 124, 171, 0.6),
+    
+    "lightRed": rgba(249, 78, 68, 0.6),
+    
+    "lightBlue": rgba(170, 208, 247, 0.6),
+    
+    "lilac": rgba(238, 154, 250, 0.6),
+    
+    "lightGreen": rgba(146, 241, 131, 0.6),
+    
+    "red": rgba(214, 1, 49, 0.6),
+    
+    "redNav": rgba(214, 1, 49, 1),
+
+    "white": white,
+);

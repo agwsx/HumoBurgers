@@ -1,0 +1,27 @@
+C:\Users\agus\Desktop\HUMO - Agustin Garcia\css\sass
+
+--------- MEDIA QUERIES NAV-----
+
+    
+    /* #nav ul{
+        display: flex;
+        flex-direction: column;
+        position:sticky;
+    }
+    nav ul li a{
+        font-size: 1rem;
+
+    }
+
+    nav a img{
+        width: 10%;
+
+    } */
+
+------------      ------------------- -----------
+  /* nav a img{
+        width: 20%;
+        height: auto;
+        padding: 10px;
+    } */
+
