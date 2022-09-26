@@ -29,9 +29,8 @@ p{
     padding: 10px;
 }
 .imgMainSized {
-    width: 30%;
-    height: auto;
-    padding: 10px;
+    @extend .imgHeaderSized;
+    width: $w30;
 }
 
 /*list style*/
@@ -58,42 +57,42 @@ p{
 
 /* mainBackgroundColors */
 .backgroundColorGreen{
-    background-color: rgba(83, 178, 134, 1);
+    background-color: map-get($map: colors, $key:"green" ) ;
 }
 
 .backgroundColorYellow{
-    background-color: rgba(225, 230, 93, 0.6);
+    background-color: map-get($map: colors, $key: "yellow");
 }
 
 .backgroundColorPink{
-    background-color: rgba(246, 124, 171, 0.6);
+    background-color: map-get($map: colors, $key: "pink");
 }
 
 .backgroundColorLightRed{
-    background-color: rgba(249, 78, 68, 0.6);
+    background-color: map-get($map: colors, $key: "lightRed");
 }
 
 .backgroundColorLightBlue{
-    background-color: rgba(170, 208, 247, 0.6);
-}
+    background-color: map-get($map: colors, $key: "lightBlue");
+} 
 
 .backgroundColorLilac{
-    background-color: rgba(238, 154, 250, 0.6);;
+    background-color: map-get($map: colors, $key: "lilac");
 }
 
 .backgroundColorLightGreen{
-    background-color: rgba(146, 241, 131, 0.6);
+    background-color: map-get($map: colors, $key: "lightGreen");
 }
 
 .backgroundColorRed{
-    background-color: rgba(214, 1, 49, 0.6);
+    background-color: map-get($map: colors, $key: "red");
 }
 .backgroundNav{
-background-color: rgba(214, 1, 49, 1);
+background-color: map-get($map: colors, $key: "navRed");
 }
 
 .backgroundColorWhite{
-    background-color: white;
+    background-color: map-get($map: colors, $key: "white");
 }
 
 /*gradients*/
@@ -127,15 +126,15 @@ background-color: rgba(214, 1, 49, 1);
     }
 
 .width30{
-    width: 30%;}
+    width: $w30;}
 
 .width45{
-        width: 45%;
+        width: $w45;
         height: auto;
     }
     
 .width50{
-        width: 50%;
+        width: $w50;
         
     }
 

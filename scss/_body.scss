@@ -1,21 +1,21 @@
 
+
+
 /*flex*/ 
 
 .flexContainerHeader{
-    display: flex;
+    @include flexAlignCenter;
     justify-content: space-evenly;
-    align-items: center;
 }
+
 .flexContainerMain{
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
+    @include flexAlignCenter;
+    justify-content: space-around;    
 }
 
 .flexContainerHeaderPedinos{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .flexContainerMainPedinos{
@@ -25,21 +25,21 @@
 }
 
 .flexContainerColumn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexAlignCenter;
+    flex-direction: column;    
 }
+
 .flexContainerRow{
-    display: flex;
+    @include flexAlignAround;
     flex-direction: row;
-    align-content:space-around;
+    
 }
 
 .flexJustify{
-    display: flex;
+    @include flexAlignAround;
     width: 100%;
     justify-content:center;
-    align-content: space-around;
+    
 }
 
 .flexReverse{
@@ -67,7 +67,6 @@
     grid-template-columns:repeat(1fr);
     grid-template-rows:repeat(1fr);
     grid-template-areas: 
-    /* "nav nav" */
     "ht hp"
     "fp ft"
     "st sp"
