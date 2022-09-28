@@ -34,8 +34,9 @@ a:visited{color: #000;}
     padding: 10px;
 }
 .imgMainSized {
-    @extend .imgHeaderSized;
     width: $w30;
+    height: auto;
+    padding: 10px;
     
 }
 
