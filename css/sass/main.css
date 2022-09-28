@@ -44,7 +44,7 @@ a:visited {
 }
 
 /*images*/
-.imgHeaderSized, .imgMainSized {
+.imgHeaderSized {
   width: 50%;
   height: auto;
   padding: 10px;
@@ -52,6 +52,8 @@ a:visited {
 
 .imgMainSized {
   width: 30%;
+  height: auto;
+  padding: 10px;
 }
 
 /*list style*/
@@ -333,7 +335,7 @@ footer img {
     grid-template-rows: 1fr;
     grid-template-areas: "burgol" "lenteja" "yamani" "aduki" "falafel" "mung";
   }
-  .imgHeaderSized, .imgMainSized {
+  .imgHeaderSized {
     display: none;
   }
   .flexContainerMain {
