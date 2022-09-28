@@ -20,6 +20,11 @@ p{
         padding: 10px;
         }
 
+       
+/*links*/        
+a:link{color: #000;}
+a:hover{color: rgb(197, 197, 197);}
+a:visited{color: #000;}        
 
 /*images*/
 
@@ -31,6 +36,7 @@ p{
 .imgMainSized {
     @extend .imgHeaderSized;
     width: $w30;
+    
 }
 
 /*list style*/
@@ -57,42 +63,42 @@ p{
 
 /* mainBackgroundColors */
 .backgroundColorGreen{
-    background-color: map-get($map: colors, $key:"green" ) ;
+    background-color: map-get($colors, "green") ;
 }
 
 .backgroundColorYellow{
-    background-color: map-get($map: colors, $key: "yellow");
+    background-color: map-get($colors, "yellow");
 }
 
 .backgroundColorPink{
-    background-color: map-get($map: colors, $key: "pink");
+    background-color: map-get($colors, "pink");
 }
 
 .backgroundColorLightRed{
-    background-color: map-get($map: colors, $key: "lightRed");
+    background-color: map-get($colors, "lightRed");
 }
 
 .backgroundColorLightBlue{
-    background-color: map-get($map: colors, $key: "lightBlue");
+    background-color: map-get($colors, "lightBlue");
 } 
 
 .backgroundColorLilac{
-    background-color: map-get($map: colors, $key: "lilac");
+    background-color: map-get($colors, "lilac");
 }
 
 .backgroundColorLightGreen{
-    background-color: map-get($map: colors, $key: "lightGreen");
+    background-color: map-get($colors, "lightGreen");
 }
 
 .backgroundColorRed{
-    background-color: map-get($map: colors, $key: "red");
+    background-color: map-get($colors, "red");
 }
 .backgroundNav{
-background-color: map-get($map: colors, $key: "navRed");
+background-color: map-get($colors, "navRed");
 }
 
 .backgroundColorWhite{
-    background-color: map-get($map: colors, $key: "white");
+    background-color: map-get($colors, "white");
 }
 
 /*gradients*/
@@ -129,12 +135,12 @@ background-color: map-get($map: colors, $key: "navRed");
     width: $w30;}
 
 .width45{
-        width: $w45;
-        height: auto;
+    width: $w45;
+    height: auto;
     }
     
 .width50{
-        width: $w50;
+    width: $w50;
         
     }
 
