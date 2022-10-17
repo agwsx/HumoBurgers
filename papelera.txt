@@ -25,3 +25,14 @@ C:\Users\agus\Desktop\HUMO - Agustin Garcia\css\sass
         padding: 10px;
     } */
 
+------------------------------------------
+
+
+link repo:
+https://github.com/agwsx/HumoBurgers.git
+
+link pages:
+https://agwsx.github.io/HumoBurgers/
+
+link sitio:
+https://humoburgers123.000webhostapp.com/
